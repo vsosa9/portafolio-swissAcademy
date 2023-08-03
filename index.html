@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <!-- Enlace al archivo de estilos de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Enlace a tu archivo de estilos personalizados -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <!-- Enlace de la marca del sitio (nombre del portafolio) -->
+    <a class="navbar-brand" href="#">Mi Portafolio</a>
+    <!-- Botón de navegación para dispositivos móviles -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Enlaces de navegación -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <!-- Enlace a la sección "Acerca de Mí" -->
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">Acerca de mí</a>
+        </li>
+        <!-- Enlace a la sección "Experiencia" -->
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experiencia</a>
+        </li>
+        <!-- Enlace a la sección "Contacto" -->
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Sección "Acerca de Mí" -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <!-- Título y descripción de "Acerca de Mí" -->
+        <h2 class="display-4">Acerca de Mí</h2>
+        <p>Mi nombre es [Tu Nombre] y soy un apasionado [Tu Profesión] con experiencia en [Tus Habilidades].</p>
+      </div>
+      <div class="col-lg-6">
+        <!-- Imagen de perfil -->
+        <img src="profile.jpg" alt="Mi Foto" class="img-fluid rounded-circle">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección "Experiencia" -->
+<section id="experience" class="bg-light py-5">
+  <div class="container">
+    <h2 class="display-4">Experiencia</h2>
+    <div class="row">
+      <!-- Tarjetas de Experiencia -->
+      <div class="col-lg-4">
+        <div class="card mb-4">
+          <div class="card-body">
+            <!-- Título y descripción del trabajo 1 -->
+            <h4 class="card-title">Trabajo 1</h4>
+            <p class="card-text">Descripción de tu trabajo 1.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Repite para más trabajos -->
+    </div>
+  </div>
+</section>
+
+<!-- Sección "Contacto" -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <h2 class="display-4">Contacto</h2>
+    <!-- Información de contacto -->
+    <p>¡Ponte en contacto conmigo a través de [tu correo electrónico]!</p>
+  </div>
+</section>
+
+<!-- Pie de página -->
+<footer class="bg-dark text-white text-center py-3">
+  <!-- Derechos de autor y año actual -->
+  <p>&copy; 2023 Mi Portafolio. Todos los derechos reservados.</p>
+</footer>
+
+<!-- Scripts de Bootstrap y jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

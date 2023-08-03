@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos de la sección Acerca de Mí */
+#about {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 30px;
+}
+
+#about p {
+    font-size: 18px;
+}
+
+/* Estilos de la sección Experiencia */
+#experience {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#experience h2 {
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Estilos de navegación */
+.navbar {
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #333;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Imagen circular */
+.img-fluid.rounded-circle {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar-nav .nav-item {
+        margin-right: 10px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .img-fluid.rounded-circle {
+        width: 150px;
+        height: 150px;
+    }
+}
